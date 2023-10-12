@@ -1,5 +1,7 @@
 const innerbox=document.querySelector(".innerbox");
 const scourr=document.querySelector(".scour");
+let clickksound=new Audio()
+clickksound.src="./mixkit-game-click-1114.wav";
 
 
 function rendomixe(){
@@ -22,4 +24,6 @@ innerbox.addEventListener("click",function(){
    
     scour++
     scourr.innerHTML=scour
+    clickksound.play()
 })
+clickksound.play()
