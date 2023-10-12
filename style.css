@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+ 
+}
+.innerbox{
+    position: relative;
+    top: 220px;
+    left:220px;
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+    z-index: 1;
+}
+.mostinner{
+    background-color: azure;
+}
+.title{
+    z-index: 0;
+    position: relative;
+    color: greenyellow;
+    text-align: center;
+    margin: 5px;
+}
+.scour{
+    color: red;
+    text-align: center;
+}
